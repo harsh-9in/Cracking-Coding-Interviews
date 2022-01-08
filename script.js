@@ -1,11 +1,7 @@
-var x=10;
-function outer(){
-    // x=50
-    function inner(){
-        console.log(x);
-    }
-    // x=100;
-    inner();
-}
 
-outer();
+console.log("i will be the first one to get run");
+
+let x=50;
+let x=50;
+
+//  it does not print anything due to redeclare of x
