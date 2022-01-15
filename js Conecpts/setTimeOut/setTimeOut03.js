@@ -8,3 +8,5 @@ function x(){
 }
 
 x();
+
+// This will output 1 - 5 
