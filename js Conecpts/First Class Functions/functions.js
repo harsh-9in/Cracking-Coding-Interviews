@@ -15,4 +15,23 @@ var b=function x(){
 a();
 b();
 
+// function parameter
+function c(i,j){
+    console.log(i,j);
+}
+
+// Function Arguments
+c(5,10);
+
+
+// Anonymous Function
+
+// function (){
+    
+// }
+
+
+// Named Function Expression
+//  ans: ans in line 9 we are using x as name then 
+// then it is called name function
 
