@@ -8,12 +8,10 @@ function xyz(){
 
 
 var harsh=function (paramater){
-    return function (){
-        console.log("Returned after param")
-    }
+    console.log(paramater)
 }
 
 
-console.log(harsh(xyz));
+harsh(xyz);
 
 
